@@ -1,0 +1,41 @@
+<expressions>
+       <addition id="10" complex="true">
+		<item>2</item>
+		<item>3</item>
+		<item>5</item>
+	</addition>
+	<addition id="10" complex="true">
+		<item>2</item>
+		<item>3</item>
+		<item>
+			<subtraction>
+				<minuend>7</minuend>
+				<subtrahend>3</subtrahend>
+			</subtraction>
+		</item>
+	</addition>
+	<addition id="1">
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+                <item> 
+			<subtraction id="2">
+				<minuend>3</minuend>
+				<subtrahend>2</subtrahend>
+			</subtraction>
+                </item>
+	</addition>
+	<subtraction id="2">
+		<minuend>3</minuend>
+		<subtrahend>2</subtrahend>
+	</subtraction>
+	<multiplication id="3">
+		<factor>5</factor>
+		<factor>6</factor>
+		<factor>8</factor>
+	</multiplication>
+	<division id="4">
+		<dividend>54</dividend>
+		<divisor>9</divisor>
+	</division>
+</expressions>
